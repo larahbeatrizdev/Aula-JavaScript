@@ -1,0 +1,26 @@
+<!--Peça o nome de um produto, o preço e a quantidade comprada. Calcule e mostre o valor 
+total da compra. 
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total da Compra</title>
+</head>
+<body>
+
+    <script>
+        let produto = prompt("Digite o nome do produto:");
+        let preco = Number(prompt("Digite o preço do produto:"));
+        let quantidade = Number(prompt("Digite a quantidade comprada:"));
+
+        let total = preco * quantidade;
+
+        alert("Produto: " + produto +
+              "\nQuantidade: " + quantidade +
+              "\nTotal da compra: R$ " + total);
+    </script>
+
+</body>
+</html>
